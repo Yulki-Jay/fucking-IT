@@ -37,3 +37,6 @@ if (flag){
 }else{
     console.log(num + "不是质数");
 }
+
+let yulki;
+console.log(typeof(yulki));

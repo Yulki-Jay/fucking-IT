@@ -19,12 +19,15 @@ let lastName = null;
 let nickName = "SuperCoder";
 
 console.log(firstName ?? lastName ?? nickName ?? "Anonymous"); // "SuperCoder"
+console.log(firstName || lastName || nickName || "Anonymous"); // "SuperCoder"
+console.log("*".repeat(50));
 
 
 firstName = "";
 lastName = "";
 console.log(firstName ?? lastName ?? nickName ?? "Anonymous"); // "" (空字符串)
-
+console.log(firstName || lastName || nickName || "Anonymous"); // "SuperCoder"
+console.log("*".repeat(50));
 
 // || 返回第一个 真 值。
 // ?? 返回第一个 已定义的 值。
@@ -37,3 +40,4 @@ console.log(area); // 0，错误的写法，应该加括号
 
 area = (height ?? 100) * (width ?? 50); // 正确的写法
 console.log(area); // 5000
+
