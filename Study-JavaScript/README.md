@@ -35,5 +35,21 @@
 - [构造器与 new](03-objects/04-constructor-and-new/01-constructor-and-new.js)
 - [可选链](03-objects/05-optional-chaining/01-optional-chaining.js)
 - [Symbol 类型](03-objects/06-symbol-type/01-symbol-type.js)
+- [对象转原始值](03-objects/07-object-toprimitive/01-object-toprimitive.js)
+
+## 04 数据类型
+
+- [原始类型的方法](04-data-types/01-primitive-methods/01-primitive-methods.js)
+- [数字类型](04-data-types/02-numbers/01-numbers.js)
+- [字符串](04-data-types/03-strings/01-strings.js)
+- [数组](04-data-types/04-arrays/01-arrays.js)
+- [数组方法](04-data-types/05-array-methods/01-array-methods.js)
+- [可迭代对象](04-data-types/06-iterables/01-iterables.js)
+- [Map 和 Set](04-data-types/07-map-and-set/01-map-and-set.js)
+- [WeakMap 和 WeakSet](04-data-types/08-weakmap-and-weakset/01-weakmap-weakset.js)
+- [Object.keys/values/entries](04-data-types/09-object-keys-values-entries/01-object-keys-values-entries.js)
+- [解构赋值](04-data-types/10-destructuring/01-destructuring.js)
+- [日期和时间](04-data-types/11-date-and-time/01-date-and-time.js)
+- [JSON 方法](04-data-types/12-json/01-json.js)
 
 目录和文件名使用“序号-主题名称”，序号按照当前学习顺序排列。
