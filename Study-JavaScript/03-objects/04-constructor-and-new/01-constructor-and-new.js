@@ -29,18 +29,17 @@ console.log( a === b ); // true
 
 
 
-function Calculator() {
-    this.num1 = 0;
-    this.num2 = 0;
-
-    this.read = function(num1, num2) {
-        this.num1 = +prompt("Enter first number:", 0);
-        this.num2 = +prompt("Enter second number:", 0);
+function Accumulator(vlaue){
+    this.value = vlaue;
+    this.read = function(){
+        this.vlaue += 100;
+    };
+    this.show = function(){
+        console.log(this.value);
     }
+}
 
-
-let calculator = new Calculator();
-calculator.read();
-
-alert( "Sum=" + calculator.sum() );
-alert( "Mul=" + calculator.mul() );
+let accumulator = new Accumulator(1);
+accumulator.read();
+accumulator.read();
+accumulator.show(); // 201

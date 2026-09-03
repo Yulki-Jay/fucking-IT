@@ -33,5 +33,7 @@
 - [对象的引用与复制](03-objects/02-object-references/01-object-references.js)
 - [对象方法与 this](03-objects/03-this/01-this.js)
 - [构造器与 new](03-objects/04-constructor-and-new/01-constructor-and-new.js)
+- [可选链](03-objects/05-optional-chaining/01-optional-chaining.js)
+- [Symbol 类型](03-objects/06-symbol-type/01-symbol-type.js)
 
 目录和文件名使用“序号-主题名称”，序号按照当前学习顺序排列。
